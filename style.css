@@ -1,0 +1,110 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    background-color: #121214;
+    max-width: 1300px;
+    height: 720px;
+    border-radius: 1%;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+header img {
+    display: flex;
+    justify-content: center;
+    padding: 42px;
+}
+
+.container-paragraph {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+
+.profile {
+    display: flex;
+    transform: translateY(-250%);
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 0px;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 194px;
+    left: 272px;
+    top: 286px;
+}
+
+main a img {
+    width: 160px;
+    height: 160px;
+
+    background: #ECECEC;
+    border-radius: 8px;
+}
+
+main a img:hover {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    transition: 0.8s ease;
+}
+
+main p {
+    color: #9C9C9C;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+
+  
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    transform: translateY(-800%);
+    justify-content: center;
+    align-items: center;
+}
+
+footer button {
+    width: 206px;
+    height: 50px;
+    left: 528px;
+    top: 582px;
+    border-radius: 8%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    background-color: #121214;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+footer button:hover {
+    color: #000;
+    background: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    transition: 0.8s ease;
+}

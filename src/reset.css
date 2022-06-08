@@ -1,0 +1,6 @@
+html, body, header, div, ul, ol, li, h1, h2, h3, p, span, a, nav {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
